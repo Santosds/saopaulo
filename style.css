@@ -4,6 +4,15 @@ body {
     font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
     line-height: 1.6;
 }
+h1 a {
+    color: #7e9f19;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    background-color: #7e9f19;
+    color: #fff;
+}
 
 .container {
     margin: 0 auto;
@@ -18,14 +27,11 @@ body {
     padding: 10px;
 }
 
-h1 a {
-    color: #7e9f19;
-    text-decoration: none;
-}
-
-h1 a:hover {
-    background-color: #7e9f19;
-    color: #fff;
+.place img {
+    border: 1px solid #7e9f19;
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 2px;
 }
 
 .place h2 {
@@ -36,5 +42,9 @@ h1 a:hover {
 .place a {
     color: #2c88a7;
     font-weight: bold;
+}
+
+.clear {
+    clear: both;
 }
 
