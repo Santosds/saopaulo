@@ -19,6 +19,11 @@ h1 a:hover {
     width: 960px;
 }
 
+.footer {
+    font-size: 12px;
+    text-align: center;
+}
+
 .place {
     background-color: #fff;
     border: 1px solid #ccc;
